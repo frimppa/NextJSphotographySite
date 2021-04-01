@@ -21,9 +21,9 @@ export default function Home({allPostsData}) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>I have learned some Next.JS :)</p>
+        <p>Aleksi Frimodig</p>
         <p>
-          This is a sample app.
+          Outdoor and Portrait photography
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
