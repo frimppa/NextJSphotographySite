@@ -16,6 +16,7 @@ export async function getStaticProps() {
 
 export default function Home({allPostsData}) {
   return (
+    <div className={utilStyles.backGroundImage}>
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
@@ -32,16 +33,13 @@ export default function Home({allPostsData}) {
           {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
             <Link href={`/posts/${id}`}>
-              <a>{title}</a>
+              Outdoor
             </Link>
-            <br />
-            <small className={utilStyles.lightText}>
-              <Date dateString={date} />
-            </small>
           </li>
           ))}
         </ul>
       </section>
     </Layout>
+    </div>
   )
 }

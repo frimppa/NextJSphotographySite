@@ -50,3 +50,12 @@
   .lightText {
     color: #666;
   }
+
+  .backGroundImage {
+    background-image: url('../public/images/20.jpg');
+    background-color: green;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
