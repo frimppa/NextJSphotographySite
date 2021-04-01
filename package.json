@@ -22,5 +22,13 @@
     "lib": "lib"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frimppa/asd.git"
+  },
+  "bugs": {
+    "url": "https://github.com/frimppa/asd/issues"
+  },
+  "homepage": "https://github.com/frimppa/asd#readme"
 }
